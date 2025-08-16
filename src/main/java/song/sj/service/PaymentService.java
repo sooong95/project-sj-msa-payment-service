@@ -34,12 +34,9 @@ public class PaymentService {
         processTransaction(amount, PaymentStatus.PAYMENT, false);
     }
 
-    private Member getMember() {
-        return memberService.getMemberFromJwt();
-    }
+    public void processTransaction(Long userId, int amount, PaymentStatus paymentStatus, boolean isDeposit) {
 
-    public void processTransaction(int amount, PaymentStatus paymentStatus, boolean isDeposit) {
-
+        // feign client 로 member 에 있는 포인트와 잔고 차감
         Member member = getMember();
 
         if (isDeposit) {
