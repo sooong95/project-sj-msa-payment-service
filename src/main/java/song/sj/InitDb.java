@@ -5,21 +5,10 @@ import jakarta.persistence.EntityManager;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
-import org.springframework.web.multipart.MultipartFile;
 import song.sj.dto.item.ItemSaveDto;
 import song.sj.dto.member.MemberJoinDto;
 import song.sj.dto.member.ShopMemberJoinDto;
-import song.sj.entity.*;
 import song.sj.entity.item.Item;
-import song.sj.enums.ItemValue;
-import song.sj.enums.Role;
-import song.sj.service.toEntity.ToItem;
-
-import java.io.File;
-import java.io.IOException;
-import java.io.InputStream;
-import java.util.ArrayList;
-import java.util.List;
 
 @Component
 @RequiredArgsConstructor

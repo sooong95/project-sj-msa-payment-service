@@ -1,7 +1,6 @@
 package song.sj.service;
 
 import lombok.extern.slf4j.Slf4j;
-import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,7 +11,6 @@ import song.sj.entity.item.Bottom;
 import song.sj.entity.item.Item;
 import song.sj.entity.item.Shoes;
 import song.sj.entity.item.Top;
-import song.sj.repository.ItemRepository;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static song.sj.enums.ItemValue.*;

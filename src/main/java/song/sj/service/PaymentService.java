@@ -7,7 +7,6 @@ import org.springframework.transaction.annotation.Transactional;
 import song.sj.entity.Member;
 import song.sj.entity.Payment;
 import song.sj.enums.PaymentStatus;
-import song.sj.repository.MemberRepository;
 import song.sj.repository.PaymentRepository;
 
 @Slf4j

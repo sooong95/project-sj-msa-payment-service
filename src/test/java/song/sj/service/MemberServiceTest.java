@@ -12,11 +12,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.transaction.annotation.Transactional;
 import song.sj.dto.member.MemberJoinDto;
-import song.sj.dto.UpdateMemberDto;
 import song.sj.entity.Address;
 import song.sj.entity.Member;
-import song.sj.enums.Role;
-import song.sj.repository.MemberRepository;
 
 import java.util.Set;
 

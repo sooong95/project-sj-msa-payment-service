@@ -10,7 +10,6 @@ import song.sj.dto.order.GetOrderItemBillDto;
 import song.sj.dto.order.OrderBillDto;
 import song.sj.entity.Bill;
 import song.sj.entity.ItemBill;
-import song.sj.entity.Shop;
 import song.sj.repository.*;
 import song.sj.service.toEntity.ToBill;
 
